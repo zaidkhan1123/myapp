@@ -1,3 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    
+}
+body{
+    overflow-x: hidden;
+}
+  
+.container-fluid{
+    background-color: #F8F9FA;
+}
 .headmain {
     flex-wrap: nowrap !important;
     gap: 20px;
@@ -12,13 +25,16 @@
     
   }
 
-  @media (max-width:585px){
-    .example{
-       display: none;
+  @media (max-width:760px){
+    .position{
+       text-align:center;
+    }
+    .span1{
+      margin-right: 20px;
     }
 }
 
-  
+
 .log-olx-small{
     width: 40px;
     
@@ -105,6 +121,7 @@ form.example input[type=text] {
   }
 
 .position{
+   
     position: relative;
   }
   .span1{
