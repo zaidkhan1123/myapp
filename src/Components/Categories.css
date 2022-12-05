@@ -9,11 +9,20 @@
 
 a{
     text-decoration: none;
-    color: rgba(56, 52, 52, 0.822);
+    color: rgba(0, 0, 0, 0.822);
+    font-weight: 500;
 }
 .span3{
     font-weight: 600;
 }
 .carousel-img{
     border-radius: 5px;
+}
+
+.fa-angle-down {
+    transition: all 0.3s;
+}
+
+.dropdown-active .fa-angle-down {
+    transform: rotate(180deg);
 }

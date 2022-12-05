@@ -6,15 +6,14 @@
 }
 body{
     overflow-x: hidden;
+    
 }
+
   
 .container-fluid{
     background-color: #F8F9FA;
 }
-.headmain {
-    flex-wrap: nowrap !important;
-    gap: 20px;
-}
+
 .logo-search {
     min-width: 370px;
 }
@@ -25,33 +24,48 @@ body{
     
   }
 
-  @media (max-width:760px){
+  @media (max-width:768px){
     .position{
        text-align:center;
     }
     .span1{
       margin-right: 20px;
     }
+    
+}
+@media (max-width:768px) {
+   .example{
+    margin-left: 10px;
+    margin-top: 5px;
+   }
+}
+@media (max-width:768px) {
+  .position{
+  
+   margin-top: 7px;
+  }
 }
 
 
 .log-olx-small{
     width: 40px;
+    cursor: pointer;
     
 }
 ._063feb70{
     margin-left: 11px;
+    
 
 }
 
-.biginput{
+/* .biginput{
     width: 30rem;
     border: 2px solid black;
     padding: 11px!important;
     border-radius: 4px !important;
      padding-left: 20px !important;
      margin-left: 28px !important;
-}
+} */
 .search{
     width: 15rem;
     height: 30px;
@@ -78,20 +92,20 @@ body{
 form.example input[type=text] {
     padding: 10px;
     font-size: 17px;
-    
+    border-radius:5px 0px 0px 5px ;
     float: left;
-    width: 80%;
+    width: 89%;
     background: #ffffff;
   }
   
   form.example button {
     float: left;
-    width: 20%;
+    width: 11%;
     padding: 10px;
     background-color: #002F34;
     color: white;
     font-size: 17px;
-    
+    border-radius: 1px 6px 6px 2px;
     border-left: none;
     cursor: pointer;
   }
@@ -104,7 +118,7 @@ form.example input[type=text] {
   }
 
   .example{
-    border: 0.5px solid black !important;
+ 
     border-radius: 4px;
     outline: none;
     width: 100%;
@@ -128,6 +142,16 @@ form.example input[type=text] {
     font-weight: 600;
     position: absolute;
     left: 20px;
-    top: 10px;
+    top: 11px;
     right: 7px;
   }
+
+svg{
+  cursor: pointer;
+}
+
+.svg-margin{
+  margin-right: 17px;
+}
+
+
