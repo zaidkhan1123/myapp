@@ -3,3 +3,24 @@
     position:absolute;
 z-index: 9999;
 }
+
+@media (max-width:906px) {
+    .category-items{
+     margin-top: 5rem;
+     width: 80%;
+    }
+ }
+
+ @media (max-width:620px) {
+    .category-items{
+     margin-top: 6rem;
+     
+    }
+ }
+
+ @media (max-width:318px) {
+    .category-items{
+     margin-top: 6.5rem;
+     
+    }
+ }

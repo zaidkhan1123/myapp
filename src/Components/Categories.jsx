@@ -5,7 +5,7 @@ import { useState } from "react";
 
 function Categories() {
 const[show,setShow] = useState(false)
-var arrowStyle
+
 function handleClick (){
   
  if (show == false) {
