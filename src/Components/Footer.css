@@ -10,6 +10,7 @@ li{
 .f-container {
     background-color: #EBEEEF;
     border: 1px solid #b7b1b16e
+
 }
 
 ._2e82a662 {
@@ -27,4 +28,7 @@ li{
     font-size: 12px;
     padding: 12px;
     font-weight: 400;
+}
+.main-z{
+    overflow-x: hidden;
 }

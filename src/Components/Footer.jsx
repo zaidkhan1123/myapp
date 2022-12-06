@@ -3,7 +3,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <>
-    <div className="container-fluid  mt-5 ">
+    <div className="container-fluid main-z mt-5 ">
       <div className="row">
         <div className="col-md-4 col-sm-6 ">
      <img src={"./images/f-mobile.webp"}alt="" />
