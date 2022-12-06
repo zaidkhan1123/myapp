@@ -1,0 +1,32 @@
+.card-text{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.cardlocation{
+    font-size: 12px;
+   color: rgb(56, 53, 53);
+}
+.price{
+    font-weight: 700;
+}
+.card-body{
+    position: relative
+}
+
+.card-img{
+    position: absolute;
+    right: 5px;
+    top: 12px;
+}
+
+.section{
+    border-radius: 6px;
+}
+
+/* @media(max-width:576px){
+   .section{
+    align-items: center;
+    text-align: center;
+   }
+} */

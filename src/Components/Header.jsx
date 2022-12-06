@@ -26,7 +26,7 @@ function handleMouseLeave(){
 
   return (
    
-    <div className="container-fluid bg-light">
+    <div className="container-fluid bg-light  sticky-top">
       <div className="container">
         <div className="row">
           <div className="col-md-12">

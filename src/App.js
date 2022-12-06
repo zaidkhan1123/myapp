@@ -9,6 +9,7 @@ function App() {
 <Header/>
 <Categories/>
 <Cards/>
+<Footer/>
    </>
   );
 }
