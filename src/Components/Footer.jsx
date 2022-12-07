@@ -9,7 +9,7 @@ function Footer() {
      <img src={"./images/f-mobile.webp"}alt="" />
         </div>
       
-      <div className="col-md-4 col-sm-6  text-start">
+      <div className="col-md-4 col-sm-6  ">
         <h2 className='mt-3'>TRY THE OLX APP</h2>
         <p className='fs-4 text-start mt-3 '>Buy, sell and find just about anything using the app on your mobile.</p>
       </div>
@@ -22,10 +22,10 @@ function Footer() {
 
     <div className="row f-container ">
       <div className="col-md-2 py-4 ">
-      <section class="_363e0a79"><span className="_34a7409b _2e82a662 a695f1e9  fs-6 fw-bolder ">Popular Categories</span><ul class="_022cac30"><li><a href="/cars_c84" class="ceaf1e75"><span class="_8918c0a8">Cars</span></a></li><li><a href="/apartments-flats_c1723" class="ceaf1e75"><span className="_8918c0a8  ">Flats for rent</span></a></li><li><a href="/mobile-phones_c1453" class="ceaf1e75"><span class="_8918c0a8">Mobile Phones</span></a></li><li><a href="/jobs_c4" class="ceaf1e75"><span class="_8918c0a8">Jobs</span></a></li></ul></section>
+      <section class="_363e0a79"><span className="_34a7409b _2e82a662 a695f1e9  fs-6 fw-bolder ">Popular</span><ul class="_022cac30"><li><a href="/cars_c84" class="ceaf1e75"><span class="_8918c0a8">Cars</span></a></li><li><a href="/apartments-flats_c1723" class="ceaf1e75"><span className="_8918c0a8  ">Flats for rent</span></a></li><li><a href="/mobile-phones_c1453" class="ceaf1e75"><span class="_8918c0a8">Mobile Phones</span></a></li><li><a href="/jobs_c4" class="ceaf1e75"><span class="_8918c0a8">Jobs</span></a></li></ul></section>
       </div>
      <div className="col-md-2 py-4">
-     <section class="_363e0a79"><span className="_34a7409b _2e82a662 a695f1e9 fs-6 fw-bolder ">Trending Searches</span><ul class="_022cac30"><li><a href="/motorcycles_c81" class="ceaf1e75"><span class="_8918c0a8">Bikes</span></a></li><li><a href="/watches_c1970" class="ceaf1e75"><span class="_8918c0a8">Watches</span></a></li><li><a href="/items/q-books" class="ceaf1e75"><span class="_8918c0a8">Books</span></a></li><li><a href="/items/q-dogs" class="ceaf1e75"><span class="_8918c0a8">Dogs</span></a></li></ul></section>
+     <section class="_363e0a79"><span className="_34a7409b _2e82a662 a695f1e9 fs-6 fw-bolder ">Trending </span><ul class="_022cac30"><li><a href="/motorcycles_c81" class="ceaf1e75"><span class="_8918c0a8">Bikes</span></a></li><li><a href="/watches_c1970" class="ceaf1e75"><span class="_8918c0a8">Watches</span></a></li><li><a href="/items/q-books" class="ceaf1e75"><span class="_8918c0a8">Books</span></a></li><li><a href="/items/q-dogs" class="ceaf1e75"><span class="_8918c0a8">Dogs</span></a></li></ul></section>
      </div>
    <div className="col-md-2 py-4">
    <section class="_363e0a79"><span className="_34a7409b _2e82a662 a695f1e9 fs-6 fw-bolder">About Us</span><ul class="_022cac30"><li><a href="https://www.empg.com/" class="ceaf1e75"><span class="_8918c0a8">About EMPG</span></a></li><li><a href="https://blog.olx.com.pk/" class="ceaf1e75"><span class="_8918c0a8">OLX Blog</span></a></li><li><a href="https://help.olx.com.pk/hc/en-us/articles/4403042207631-How-can-you-contact-Us-" class="ceaf1e75"><span class="_8918c0a8">Contact Us</span></a></li><li><a href="https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website" class="ceaf1e75"><span class="_8918c0a8">OLX for Businesses</span></a></li></ul></section>

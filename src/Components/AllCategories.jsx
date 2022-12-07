@@ -7,7 +7,7 @@ function AllCategories() {
                         <div className="row">
                             <div className="category-item col-lg-3 mt-5 lh-base">
                                 <ul type='none' >
-                                    <li className='fw-bold mb-3'> <a href='/'> Mobiles  </a>   </li>
+                                    <li className='fw-bold mb-3 '> <a href='/'> Mobiles  </a>   </li>
                                     <li> <a href='/'> Mobile   </a>   </li>
                                     <li> <a href='/'> Accessories</a>   </li>
                                     <li> <a href='/'> Smart      </a>   </li>
@@ -29,7 +29,7 @@ function AllCategories() {
                                 </ul>
 
                                 <ul type='none'>
-                                    <li className='fw-bold mt-5 mb-3'> <a href='/'>	Property for Sale	</a></li>
+                                    <li className='fw-bold mt-5 mb-3 '> <a href='/'>	Property for Sale	</a></li>
                                     <li> <a href='/'>	Land & Plots	</a></li>
                                     <li> <a href='/'>	Houses	</a></li>
                                     <li> <a href='/'>	Apartments & Flats	</a></li>
@@ -38,7 +38,7 @@ function AllCategories() {
                                 </ul>
 
                                 <ul type='none'>
-                                    <li className='fw-bold mt-5 mb-3'> <a href='/'>	Property for Rent	</a></li>
+                                    <li className='fw-bold mt-5 mb-3 '> <a href='/'>	Property for Rent	</a></li>
                                     <li> <a href='/'>	Houses	</a></li>
                                     <li> <a href='/'>	Portions & Floors	</a></li>
                                     <li> <a href='/'>	Apartments & Flats	</a></li>
@@ -51,7 +51,7 @@ function AllCategories() {
                             </div>
                             <div className="category-item col-lg-3 lh-base">
                                 <ul type='none'>
-                                    <li className='fw-bold mt-5 mb-3'> <a href='/'>	Electronics & Home Appliances	</a></li>
+                                    <li className='fw-bold mt-5 mb-3 '> <a href='/'>	Electronics & Home Appliances	</a></li>
                                     <li> <a href='/'>	Computers & Accessories	</a></li>
                                     <li> <a href='/'>	TV - Video - Audio	</a></li>
                                     <li> <a href='/'>	Other Home Appliances	</a></li>
@@ -66,7 +66,7 @@ function AllCategories() {
                                 </ul>
 
                                 <ul type='none'>
-                                    <li className='fw-bold mt-5 mb-3'> <a href='/'>	Bikes	</a></li>
+                                    <li className='fw-bold mt-5 mb-3 '> <a href='/'>	Bikes	</a></li>
                                     <li> <a href='/'>	Motorcycles	</a></li>
                                     <li> <a href='/'>	Bicycles	</a></li>
                                     <li> <a href='/'>	Spare Parts	</a></li>
@@ -75,7 +75,7 @@ function AllCategories() {
                                 </ul>
 
                                 <ul type='none'>
-                                    <li className='fw-bold mt-5 mb-3'> <a href='/'>	Business, Industrial & Agriculture	</a></li>
+                                    <li className='fw-bold mt-5 mb-3 '> <a href='/'>	Business, Industrial & Agriculture	</a></li>
                                     <li> <a href='/'>	Other Business & Industry	</a></li>
                                     <li> <a href='/'>	Food & Restaurants	</a></li>
                                     <li> <a href='/'>	Medical & Pharma	</a></li>
@@ -107,7 +107,7 @@ function AllCategories() {
                             </div>
                             <div className="category-item col-lg-3 lh-base">
                                 <ul type='none'>
-                                    <li className='fw-bold mt-5 mb-3'> <a href='/'>	Jobs	</a></li>
+                                    <li className='fw-bold mt-5 mb-3 '> <a href='/'>	Jobs	</a></li>
                                     <li> <a href='/'>	Online	</a></li>
                                     <li> <a href='/'>	Part Time	</a></li>
                                     <li> <a href='/'>	Other Jobs	</a></li>
@@ -136,7 +136,7 @@ function AllCategories() {
                                 </ul>
 
                                 <ul type='none'>
-                                    <li className='fw-bold mt-5 mb-3'> <a href='/'>	Animals	</a></li>
+                                    <li className='fw-bold mt-5 mb-3 '> <a href='/'>	Animals	</a></li>
                                     <li> <a href='/'>	Birds	</a></li>
                                     <li> <a href='/'>	Hens & Aseel	</a></li>
                                     <li> <a href='/'>	Cats	</a></li>
@@ -152,7 +152,7 @@ function AllCategories() {
                             </div>
                             <div className="category-item col-lg-3 lh-base">
                                 <ul type='none'>
-                                    <li className='fw-bold mt-5 mb-3'> <a href='/'>	Furniture & Home Decor	</a></li>
+                                    <li className='fw-bold mt-5 mb-3 '> <a href='/'>	Furniture & Home Decor	</a></li>
                                     <li> <a href='/'>	Sofa & Chairs	</a></li>
                                     <li> <a href='/'>	Beds & Wardrobes	</a></li>
                                     <li> <a href='/'>	Home Decoration	</a></li>
@@ -166,7 +166,7 @@ function AllCategories() {
                                 </ul>
 
                                 <ul type='none'>
-                                    <li className='fw-bold mt-5 mb-3'> <a href='/'>	Fashion & Beauty	</a></li>
+                                    <li className='fw-bold mt-5 mb-3 '> <a href='/'>	Fashion & Beauty	</a></li>
                                     <li> <a href='/'>	Clothes	</a></li>
                                     <li> <a href='/'>	Watches	</a></li>
                                     <li> <a href='/'>	Skin & Hair	</a></li>

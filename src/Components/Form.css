@@ -1,0 +1,48 @@
+.form-control{
+border: 1px solid rgb(0, 0, 0) !important;
+}
+.main{
+    border: 2px solid   #002F34;
+    border-radius: 5px;
+}
+.form-pera{
+ font-size: small;
+}
+
+.column{
+    
+   
+    /* position: relative; */
+    border: 2px solid rgba(78, 77, 77, 0.438);
+    border-radius: 5px;
+}
+
+.camera{
+    /* position: absolute; */
+    top: 50px;
+    left: 103px;
+    width: 3rem;
+    height: 50px;
+}
+.input-img{
+    
+    font-size: small;
+}
+
+.last-btn{
+    padding-left: 13px;
+    padding-right: 13px ;
+    border-radius: 1px;
+    color: white;
+  background-color:  #002F34
+}
+
+.last-btn:hover{
+    transition: all 0.3s;
+    background-color: white;
+    color: #002F34;
+}
+
+.color{
+    color: #002F34;
+}

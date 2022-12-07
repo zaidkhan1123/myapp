@@ -115,7 +115,7 @@ function Cards() {
                   <div className="card-body">
                   <img className='card-img' src={"./images/heart.svg"} alt="" style={{width:"8%"}} />
                     <p className="card-text">
-                    Moto one zoom+ 3x optical <br /> 
+                    Moto one zoom+ <br /> 3x optical  
                     
                     </p>
                     <h5 className='price'>Rs 40,000</h5>  
