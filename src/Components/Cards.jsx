@@ -14,8 +14,9 @@ function Cards() {
         <div className="col-md-4 col-sm-6 col-lg-3">
           
   <div className="card" style={{height:"auto",minHeight:"310px"}} >
+  <div class="featured position-absolute rounded-1 border bg-warning px-1">FEATURED</div>
   <img src={"./images/car.jpg"} className="card-img-top" alt="..." style={{width:"100%", objectFit: "contain",height:"150px",backgroundColor:" rgb(34, 34, 34)"}}  />
-  <div className="card-body ">
+  <div className="card-body  ">
   <img className='card-img' src={"./images/heart.svg"} alt="" style={{width:"8%"}} />
     <p className="card-text">
     Toyota Belta X Business 
@@ -31,6 +32,7 @@ function Cards() {
 <div className="col-md-4 col-sm-6 col-lg-3">
           
           <div className="card" >
+          <div class="featured position-absolute rounded-1 border bg-warning px-1">FEATURED</div>
           <img src={"./images/car2.jpg"} className="card-img-top" alt="..." style={{width:"100%", objectFit: "contain",height:"150px",backgroundColor:" rgb(34, 34, 34)"}}  />
           <div className="card-body">
           <img className='card-img' src={"./images/heart.svg"} alt="" style={{width:"8%"}} />
@@ -47,6 +49,7 @@ function Cards() {
         <div className="col-md-4 col-sm-6 col-lg-3">
           
           <div className="card" >
+          <div class="featured position-absolute rounded-1 border bg-warning px-1">FEATURED</div>
           <img src={"./images/car3.jpg"} className="card-img-top" alt="..." style={{width:"100%", objectFit: "contain",height:"150px",backgroundColor:" rgb(34, 34, 34)"}}  />
           <div className="card-body">
           <img className='card-img' src={"./images/heart.svg"} alt="" style={{width:"8%"}} />
@@ -63,6 +66,7 @@ function Cards() {
         <div className="col-md-4 col-sm-6 col-lg-3">
           
           <div className="card">
+          <div class="featured position-absolute rounded-1 border bg-warning px-1">FEATURED</div>
           <img src={"./images/iphone.jpg"} className="card-img-top" alt="..." style={{width:"100%", objectFit: "contain",height:"150px",backgroundColor:" rgb(34, 34, 34)"}}  />
           <div className="card-body">
           <img className='card-img' src={"./images/heart.svg"} alt="" style={{width:"8%"}} />
@@ -79,6 +83,7 @@ function Cards() {
         <div className="col-md-4 col-sm-6 col-lg-3">
           
           <div className="card">
+          <div class="featured position-absolute rounded-1 border bg-warning px-1">FEATURED</div>
           <img src={"https://images.olx.com.pk/thumbnails/310104023-240x180.webp"} className="card-img-top" alt="..." style={{width:"100%", objectFit: "contain",height:"150px",backgroundColor:" rgb(34, 34, 34)"}}  />
           <div className="card-body ">
           <img className='card-img' src={"./images/heart.svg"} alt="" style={{width:"8%"}} />
@@ -95,6 +100,7 @@ function Cards() {
         <div className="col-md-4 col-sm-6 col-lg-3">
                   
                   <div className="card" >
+                  <div class="featured position-absolute rounded-1 border bg-warning px-1">FEATURED</div>
                   <img src={"https://images.olx.com.pk/thumbnails/309916807-400x300.webp"} className="card-img-top" alt="..." style={{width:"100%", objectFit: "contain",height:"150px",backgroundColor:" rgb(34, 34, 34)"}}  />
                   <div className="card-body">
                   <img className='card-img' src={"./images/heart.svg"} alt="" style={{width:"8%"}} />
@@ -111,6 +117,7 @@ function Cards() {
                 <div className="col-md-4 col-sm-6 col-lg-3">
                   
                   <div className="card" >
+                  <div class="featured position-absolute rounded-1 border bg-warning px-1">FEATURED</div>
                   <img src={"https://images.olx.com.pk/thumbnails/285060269-240x180.webp"} className="card-img-top" alt="..." style={{width:"100%", objectFit: "contain",height:"150px",backgroundColor:" rgb(34, 34, 34)"}}  />
                   <div className="card-body">
                   <img className='card-img' src={"./images/heart.svg"} alt="" style={{width:"8%"}} />
@@ -127,6 +134,7 @@ function Cards() {
                 <div className="col-md-4 col-sm-6 col-lg-3">
                   
                   <div className="card">
+                  <div class="featured position-absolute rounded-1 border bg-warning px-1">FEATURED</div>
                   <img src={"./images/iphone.jpg"} className="card-img-top" alt="..." style={{width:"100%", objectFit: "contain",height:"150px",backgroundColor:" rgb(34, 34, 34)"}}  />
                   <div className="card-body">
                   <img className='card-img' src={"./images/heart.svg"} alt="" style={{width:"8%"}} />
