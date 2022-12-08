@@ -21,29 +21,29 @@ function Footer() {
 
 
     <div className="row f-container ">
-      <div className="col-md-2 py-4 ">
-      <section class="_363e0a79"><span className="_34a7409b _2e82a662 a695f1e9  fs-6 fw-bolder ">Popular</span><ul class="_022cac30"><li><a href="/cars_c84" class="ceaf1e75"><span class="_8918c0a8">Cars</span></a></li><li><a href="/apartments-flats_c1723" class="ceaf1e75"><span className="_8918c0a8  ">Flats for rent</span></a></li><li><a href="/mobile-phones_c1453" class="ceaf1e75"><span class="_8918c0a8">Mobile Phones</span></a></li><li><a href="/jobs_c4" class="ceaf1e75"><span class="_8918c0a8">Jobs</span></a></li></ul></section>
+      <div className="col-md-2 py-4">
+      <section class="_363e0a79 ms-5"><span className="_34a7409b _2e82a662 a695f1e9   fs-6 fw-bolder ">Popular</span><ul class="_022cac30"><li><a href="/cars_c84" class="ceaf1e75"><span class="_8918c0a8">Cars</span></a></li><li><a href="/apartments-flats_c1723" class="ceaf1e75"><span className="_8918c0a8  ">Flats for rent</span></a></li><li><a href="/mobile-phones_c1453" class="ceaf1e75"><span class="_8918c0a8">Mobile Phones</span></a></li><li><a href="/jobs_c4" class="ceaf1e75"><span class="_8918c0a8">Jobs</span></a></li></ul></section>
       </div>
      <div className="col-md-2 py-4">
-     <section class="_363e0a79"><span className="_34a7409b _2e82a662 a695f1e9 fs-6 fw-bolder ">Trending </span><ul class="_022cac30"><li><a href="/motorcycles_c81" class="ceaf1e75"><span class="_8918c0a8">Bikes</span></a></li><li><a href="/watches_c1970" class="ceaf1e75"><span class="_8918c0a8">Watches</span></a></li><li><a href="/items/q-books" class="ceaf1e75"><span class="_8918c0a8">Books</span></a></li><li><a href="/items/q-dogs" class="ceaf1e75"><span class="_8918c0a8">Dogs</span></a></li></ul></section>
+     <section class="_363e0a79 ms-5"><span className="_34a7409b _2e82a662 a695f1e9 fs-6 fw-bolder ">Trending </span><ul class="_022cac30"><li><a href="/motorcycles_c81" class="ceaf1e75"><span class="_8918c0a8">Bikes</span></a></li><li><a href="/watches_c1970" class="ceaf1e75"><span class="_8918c0a8">Watches</span></a></li><li><a href="/items/q-books" class="ceaf1e75"><span class="_8918c0a8">Books</span></a></li><li><a href="/items/q-dogs" class="ceaf1e75"><span class="_8918c0a8">Dogs</span></a></li></ul></section>
      </div>
    <div className="col-md-2 py-4">
-   <section class="_363e0a79"><span className="_34a7409b _2e82a662 a695f1e9 fs-6 fw-bolder">About Us</span><ul class="_022cac30"><li><a href="https://www.empg.com/" class="ceaf1e75"><span class="_8918c0a8">About EMPG</span></a></li><li><a href="https://blog.olx.com.pk/" class="ceaf1e75"><span class="_8918c0a8">OLX Blog</span></a></li><li><a href="https://help.olx.com.pk/hc/en-us/articles/4403042207631-How-can-you-contact-Us-" class="ceaf1e75"><span class="_8918c0a8">Contact Us</span></a></li><li><a href="https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website" class="ceaf1e75"><span class="_8918c0a8">OLX for Businesses</span></a></li></ul></section>
+   <section class="_363e0a79 ms-5"><span className="_34a7409b _2e82a662 a695f1e9 fs-6 fw-bolder">About Us</span><ul class="_022cac30"><li><a href="https://www.empg.com/" class="ceaf1e75"><span class="_8918c0a8">About EMPG</span></a></li><li><a href="https://blog.olx.com.pk/" class="ceaf1e75"><span class="_8918c0a8">OLX Blog</span></a></li><li><a href="https://help.olx.com.pk/hc/en-us/articles/4403042207631-How-can-you-contact-Us-" class="ceaf1e75"><span class="_8918c0a8">Contact Us</span></a></li><li><a href="https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website" class="ceaf1e75"><span class="_8918c0a8">OLX for Businesses</span></a></li></ul></section>
    </div>
       <div className="col-md-2 py-4">
-      <section class="_363e0a79"><span className="_34a7409b _2e82a662 a695f1e9   fs-6 fw-bolder ">OLX</span><ul class="_022cac30"><li><a href="https://help.olx.com.pk/hc/en-us" class="ceaf1e75"><span class="_8918c0a8">Help</span></a></li><li><a href="/sitemap/most-popular" class="ceaf1e75"><span class="_8918c0a8">Sitemap</span></a></li><li><a href="https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-" class="ceaf1e75"><span class="_8918c0a8">Terms of use</span></a></li><li><a href="https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information" class="ceaf1e75"><span class="_8918c0a8">Privacy Policy</span></a></li></ul></section>
+      <section class="_363e0a79 ms-5"><span className="_34a7409b _2e82a662 a695f1e9   fs-6 fw-bolder ">OLX</span><ul class="_022cac30"><li><a href="https://help.olx.com.pk/hc/en-us" class="ceaf1e75"><span class="_8918c0a8">Help</span></a></li><li><a href="/sitemap/most-popular" class="ceaf1e75"><span class="_8918c0a8">Sitemap</span></a></li><li><a href="https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-" class="ceaf1e75"><span class="_8918c0a8">Terms of use</span></a></li><li><a href="https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information" class="ceaf1e75"><span class="_8918c0a8">Privacy Policy</span></a></li></ul></section>
       </div>
-      <div className="col-md-4 py-4 px-5">
-      <section className="b5d24b44  ">
-  <span className="_34a7409b _2e82a662 a695f1e9 fs-6 fw-bold">Follow us</span>
-  <div className="_1075545d _3a13e88c _96d4439a ">
+      <div className="col-md-4 py-4  px-5">
+      <section className="b5d24b44 ms-4 ">
+  <span className="_34a7409b _2e82a662 a695f1e9 ms-5 fs-6 fw-bold">Follow us</span>
+  <div className="_1075545d _3a13e88c _96d4439a ms-5 ">
     <a
       href="https://www.facebook.com/olxpakistan"
       target="_blank"
       rel="noopener noreferrer"
     >
       <img  style={{width:"2rem"}}
-      className="ac2bfae3"
+      className="ac2bfae3 "
         src={"./images/facebook-icon.svg"}
         alt="Facebook Logo"
         
@@ -55,7 +55,7 @@ function Footer() {
       rel="noopener noreferrer"
     >
       <img style={{width:"2rem"}}
-      className="ac2bfae3"
+      className="ac2bfae3  "
         src={"./images/twitter-icon.svg"}
         alt="Twitter Logo"
       />
@@ -66,7 +66,7 @@ function Footer() {
       rel="noopener noreferrer"
     >
       <img style={{width:"2rem"}}
-      className="ac2bfae3"
+      className="ac2bfae3 "
        src={"./images/youtube-icon.svg"}
         alt="Youtube Logo"
       />
@@ -85,7 +85,7 @@ function Footer() {
       />
     </a>
   </div>
-  <div className="_1075545d _7ed1ca2f _96d4439a">
+  <div className="_1075545d _7ed1ca2f _96d4439a ms-5 ">
     <a
       href="https://apps.apple.com/pk/app/olx-pakistan/id1551315538"
       target="_blank"

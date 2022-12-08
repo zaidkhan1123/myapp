@@ -144,6 +144,7 @@ form.example input[type=text] {
     left: 20px;
     top: 11px;
     right: 7px;
+    cursor: pointer;
   }
 
 svg{

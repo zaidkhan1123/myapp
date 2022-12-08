@@ -4,7 +4,7 @@ function Form() {
   return (
     <>
     <div className="container main mt-5">
-        <form action="">
+        <form  typeof='submit'  action="" >
         <h6 className=' mt-3 ms-2 fw-bold color '>Category</h6>
         <hr />
         <h6 className='color'>INCLUDE SOME DETAILS</h6>
@@ -61,7 +61,7 @@ function Form() {
     SET A PRICE
     </label>
     <input
-      type="email"
+      type="number"
       className="form-control"
       id="exampleFormControlInput1"  
       placeholder='Rs' 
