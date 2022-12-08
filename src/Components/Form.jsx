@@ -124,7 +124,7 @@ function Form() {
     Mobile Phone Number
     </label>
     <input
-      type="text"
+      type="number"
       className="form-control"
       id="exampleFormControlInput1"  
       placeholder='Phone,Number' 
