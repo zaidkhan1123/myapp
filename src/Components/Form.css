@@ -11,6 +11,7 @@ border: 1px solid rgb(0, 0, 0) !important;
 
 .column{
     
+    align-items: center;
    
     /* position: relative; */
     border: 2px solid rgba(78, 77, 77, 0.438);

@@ -4,26 +4,33 @@ import Categories from "./Components/Categories";
 import Footer from "./Components/Footer";
 import Cards from "./Components/Cards";
 import Form from "./Components/Form";
-
+import Products from "./products/Products";
+import { BrowserRouter,Routes,Route } from "react-router-dom";
 function App() {
-  const [signIn, setsignIn] = useState(false);
-
-  function handleClicked() {
-    setsignIn(true);
-  }
+ 
 
   return (
     <>
-      {signIn == true ? (
-        <Form />
-      ) : (
-        <>
-          <Header handleClicked={handleClicked} />
-          <Categories />
-          <Cards />
-          <Footer />
-        </>
-      )}
+    <BrowserRouter>
+    <Routes>
+    <Route path="/" element={
+     <> <Header/>
+     <Categories/>
+      <Cards/>
+      <Footer/>
+      </>
+    }  />
+     <Route path="/products" element={<> <Header/>
+     <Categories/>
+      <Products/>
+      <Footer/>
+      </>} />
+      <Route path="/sellform" element={<Form/>}/>
+
+  
+    </Routes>
+    </BrowserRouter>
+     
     </>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Card.css";
-
+import { Link } from 'react-router-dom';
 
 function Cards() {
 
@@ -9,11 +9,12 @@ function Cards() {
   return (
     <>
     <div className="container-fluid section bg-light mt-5 px-5 ms-1 ">
+
       <h4 className='p-3'>Fresh Recomendations</h4>
       <div className="row gy-3">
         <div className="col-md-4 col-sm-6 col-lg-3">
           
-  <div className="card" style={{height:"auto",minHeight:"310px"}} >
+  <Link to="/products" className="card text-dark" style={{height:"auto",minHeight:"310px"}} >
   <div class="featured position-absolute rounded-1 border bg-warning px-1">FEATURED</div>
   <img src={"./images/car.jpg"} className="card-img-top" alt="..." style={{width:"100%", objectFit: "contain",height:"150px",backgroundColor:" rgb(34, 34, 34)"}}  />
   <div className="card-body  ">
@@ -26,9 +27,12 @@ function Cards() {
     <h5 className='price'>Rs 1,900,000</h5>  
     <p className='cardlocation'>Mall Road, Lahore . 1 week ago</p>
   </div>
-</div>
+</Link>
 
 </div>
+
+
+
 <div className="col-md-4 col-sm-6 col-lg-3">
           
           <div className="card" >
@@ -46,6 +50,9 @@ function Cards() {
         </div>
         
         </div>
+
+
+        
         <div className="col-md-4 col-sm-6 col-lg-3">
           
           <div className="card" >
