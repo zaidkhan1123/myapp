@@ -32,3 +32,10 @@ li{
 .main-z{
     overflow-x: hidden;
 }
+
+
+@media(max-width:1180px){
+    .display{
+        visibility: hidden;
+    }
+}

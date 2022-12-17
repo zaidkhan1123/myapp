@@ -4,12 +4,13 @@ function Footer() {
   return (
     <>
     <div className="container-fluid main-z mt-5 ">
+      
       <div className="row">
         <div className="col-md-4 col-sm-6 ">
      <img src={"./images/f-mobile.webp"}alt="" />
         </div>
       
-      <div className="col-md-4 col-sm-6  ">
+      <div className="col-md-4 col-sm-6 display ">
         <h2 className='mt-3'>TRY THE OLX APP</h2>
         <p className='fs-4 text-start mt-3 '>Buy, sell and find just about anything using the app on your mobile.</p>
       </div>
@@ -38,7 +39,7 @@ function Footer() {
   <span className="_34a7409b _2e82a662 a695f1e9 ms-5 fs-6 fw-bold">Follow us</span>
   <div className="_1075545d _3a13e88c _96d4439a ms-5 ">
     <a
-      href="https://www.facebook.com/olxpakistan"
+      href="https://www.facebook.com/whitepool1"
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -50,7 +51,7 @@ function Footer() {
       />
     </a>
     <a
-      href="https://twitter.com/OLX_Pakistan"
+      
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -61,7 +62,7 @@ function Footer() {
       />
     </a>
     <a
-      href="https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1"
+      
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -72,7 +73,7 @@ function Footer() {
       />
     </a>
     <a
-      href="https://www.instagram.com/olx.pakistan/"
+       href='https://www.instagram.com/zaidkhan12370/'
       target="_blank"
       rel="noopener noreferrer"
     >

@@ -29,3 +29,12 @@ z-index: 9999;
  
    font-size: 19px;
 }
+li a {
+   font-size: 12px;
+   font-weight: 400!important;
+}
+
+.sub-heading{
+   font-size: 16px;
+   font-weight: 700!important;
+}

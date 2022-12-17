@@ -12,7 +12,7 @@ function ProductDes() {
           </div>
           <div className="col-lg-6 d-flex justify-content-between">
             <p className="fs-14 grayShade">Price</p>
-            <p className="fs-14">Rs. 57,000</p>
+            <p className="fs-14">Rs. 60,000</p>
           </div>
           <div className="col-lg-6 d-flex justify-content-between">
             <p className="fs-14 grayShade">Condition</p>
@@ -24,9 +24,9 @@ function ProductDes() {
 
         <div className="">
           <p className="fs-14 m-0">condition 10/10</p>
-          <p className="fs-14 m-0">battery health 82 </p>
+          <p className="fs-14 m-0">battery health 89 </p>
           <p className="fs-14 m-0">LLA model </p>
-          <p className="fs-14 m-0">e sim non active </p>
+          <p className="fs-14 m-0">non active </p>
           <p className="fs-14 m-0">water pack</p>
           <p className="fs-14 m-0">urgent sale serious buyer contact</p>
         </div>

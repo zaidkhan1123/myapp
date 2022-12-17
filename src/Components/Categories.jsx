@@ -65,28 +65,28 @@ function handleClick (){
           data-bs-ride="carousel"
         >
           <div className="carousel-inner">
-            <div className="carousel-item active" data-bs-interval={2400}>
+            <div className="carousel-item " data-bs-interval={100000}>
               <img
                 src={"./images/sprite.jpg"}
                 className="d-block w-100 carousel-img"
                 alt="..."
               />
             </div>
-            <div className="carousel-item" data-bs-interval={2400}>
+            <div className="carousel-item" data-bs-interval={100000}>
               <img
                 src={"./images/sprite.jpg"}
                 className="d-block w-100 carousel-img"
                 alt="..."
               />
             </div>
-            <div className="carousel-item" data-bs-interval={2400}>
+            <div className="carousel-item" data-bs-interval={100000}>
               <img
                 src={"./images/zong.jpg"}
                 className="d-block w-100 carousel-img"
                 alt="..."
               />
             </div>
-            <div className="carousel-item" data-bs-interval={2400}>
+            <div className="carousel-item active " data-bs-interval={100000}>
               <img
                 src={"./images/chai.jpg"}
                 className="d-block w-100 carousel-img"
