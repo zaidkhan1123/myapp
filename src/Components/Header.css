@@ -141,8 +141,8 @@ form.example::after {
 .span1{
   font-weight: 600;
   position: absolute;
-  left: 20px;
-  top: 11px;
+  left: 22px;
+  top: 12px;
   right: 7px;
   cursor: pointer;
 }

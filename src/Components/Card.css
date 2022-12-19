@@ -54,3 +54,7 @@
   -webkit-box-orient: vertical;  
   overflow: hidden;
 }
+
+.grey{
+    color: rgba(77, 72, 72, 0.765);
+}

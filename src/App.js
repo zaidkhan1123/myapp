@@ -6,8 +6,16 @@ import Cards from "./Components/Cards";
 import Form from "./Components/Form";
 import Products from "./products/Products";
 import { BrowserRouter,Routes,Route } from "react-router-dom";
+import "./App.css"
+
+
 function App() {
- 
+ const [index,setIndex]=useState("")
+  function GetIndex(ind){
+   console.log(ind);
+   setIndex(ind)
+  }
+
 
   return (
     <>
@@ -16,13 +24,13 @@ function App() {
     <Route path="/" element={
      <> <Header/>
      <Categories/>
-      <Cards/>
+      <Cards Getindex={GetIndex}  />
       <Footer/>
       </>
     }  />
      <Route path="/products" element={<> <Header/>
      <Categories/>
-      <Products/>
+      <Products cardIndex={index} />
       <Footer/>
       </>} />
       <Route path="/sellform" element={<Form/>}/>

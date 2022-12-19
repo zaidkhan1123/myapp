@@ -1,10 +1,17 @@
 import React from 'react'
+import "./Detail.css"
 
-function ProductCarousel({image}) {
+
+
+function Detail() {
+
+
   return (
     <>
-           <div className="productImageSlider border">
-        <div className="row h-100">
+<div className="productImageSlider border">
+  <div className="row">
+    <div className="col-md-6">
+    <div className="row h-100">
           <div className="col-md-12 h-100">
             <div
               id="bootstrapCarouselIndicator"
@@ -15,16 +22,16 @@ function ProductCarousel({image}) {
                 <img
                   data-bs-target="#bootstrapCarouselIndicator"
                   data-bs-slide-to="0"
-                  src={image}
+                  src={"./images/iphone.jpg"}
                   className="d-block w-auto active thumbs"
-                  alt="product"
+                  alt="product "
                 />
 
                 <img
                   data-bs-target="#bootstrapCarouselIndicator"
                   data-bs-slide-to="1"
                   aria-label="Slide 2"
-                  src={image}
+                  src={"./images/car.jpg"}
                   className="d-block w-auto thumbs"
                   alt="product "
                 />
@@ -33,7 +40,7 @@ function ProductCarousel({image}) {
                   data-bs-target="#bootstrapCarouselIndicator"
                   data-bs-slide-to="2"
                   aria-label="Slide 3"
-                  src={image}
+                  src={"./images/car2.jpg"}
                   className="d-block w-auto thumbs"
                   alt="product "
                 />
@@ -41,21 +48,21 @@ function ProductCarousel({image}) {
               <div className="carousel-inner carouselInnerContainer ">
                 <div className="carousel-item h-100 active">
                   <img
-                    src={image}
+                    src={"./images/iphone.jpg"}
                     className="d-block w-100 slideImg"
                     alt="product "
                   />
                 </div>
                 <div className="carousel-item h-100">
                   <img
-                    src={image}
+                    src={"./images/car.jpg"}
                     className="d-block w-100 slideImg"
                     alt="product "
                   />
                 </div>
                 <div className="carousel-item h-100">
                   <img
-                    src={image}
+                    src={"./images/car2.jpg"}
                     className="d-block w-100 slideImg"
                     alt="product "
                   />
@@ -82,9 +89,21 @@ function ProductCarousel({image}) {
             </div>
           </div>
         </div>
+    </div>
+  </div>
+      
       </div>
-    </>
+</>
+
+ 
+
+
   )
 }
 
-export default ProductCarousel
+export default Detail
+
+
+
+
+
