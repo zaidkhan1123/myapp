@@ -14,7 +14,7 @@ import axios from 'axios'
 function Products({cardIndex}) {
 
 
-  const[apiData,setApidata]=useState([])
+  const[apiData,setApidata]=useState([]);
 
 useEffect(()=>{
 
@@ -25,7 +25,7 @@ console.log(err);
 })
 
 
-},[])
+},[]);
 
 
     
@@ -35,10 +35,10 @@ console.log(err);
         <div className="product row w-100">
           <div className="col-lg-7">
             <ProductCarousel image={apiData.image} />
-            <ProductDes/>
+            <ProductDes description={apiData.description} price={apiData.price}  />
           </div>
           <div className="col-lg-5">
-            <ProductPrice />
+            <ProductPrice price={apiData.price} title={apiData.title} />
             <SellerDesc />
             <ProductLocation />
           </div>

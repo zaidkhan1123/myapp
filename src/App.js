@@ -7,6 +7,7 @@ import Form from "./Components/Form";
 import Products from "./products/Products";
 import { BrowserRouter,Routes,Route } from "react-router-dom";
 import "./App.css"
+import ProductListings from "./Components/ProductListing";
 
 
 function App() {
@@ -34,8 +35,8 @@ function App() {
       <Footer/>
       </>} />
       <Route path="/sellform" element={<Form/>}/>
-
-  
+       <Route path="/ProductListing" element={<ProductListings/>}  />
+     
     </Routes>
     </BrowserRouter>
      

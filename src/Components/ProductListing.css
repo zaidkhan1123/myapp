@@ -1,0 +1,24 @@
+.CheckboxContainer {
+
+    display: flex;
+    align-items: center;
+}
+
+.CheckBox {
+    cursor: pointer;
+    width: 1.3rem;
+    height: 1.3rem;
+    outline: none !important;
+}
+
+.CheckBoxLable {
+    cursor: pointer;
+}
+
+
+@media (min-width: 992px) {
+    .listingColumn {
+        scale: 0.9;
+        transform-origin: 0 2rem !important;
+    }
+}
