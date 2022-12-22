@@ -9,16 +9,17 @@ import "./Product.css"
 import { useState } from 'react'
 import { useEffect } from 'react'
 import axios from 'axios'
+import { useParams } from 'react-router-dom'
 
 
-function Products({cardIndex}) {
+function Products() {
 
-
+const {id} = useParams();
   const[apiData,setApidata]=useState([]);
 
 useEffect(()=>{
 
-axios.get(`https://fakestoreapi.com/products/${cardIndex}`).then((res)=>{
+axios.get(`https://fakestoreapi.com/products/${id}`).then((res)=>{
 setApidata(res.data)
 }).catch((err)=>{
 console.log(err);

@@ -22,3 +22,26 @@
         transform-origin: 0 2rem !important;
     }
 }
+.fourteen{
+    font-size: 14px !important;
+    color: rgba(107, 101, 101, 0.822) !important;
+}
+.card-img {
+    width: 100%;
+    object-fit: contain;
+    height: 150px !important;
+    background-color: rgb(34, 34, 34);
+    border-radius: 5px 5px 0 0;
+}
+.hurt-icon{
+    right: 6px;
+}
+
+
+.card-img-full {
+    width: 100%;
+    object-fit: contain;
+    height: 300px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 5px 5px 0 0;
+}

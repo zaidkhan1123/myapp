@@ -11,11 +11,7 @@ import ProductListings from "./Components/ProductListing";
 
 
 function App() {
- const [index,setIndex]=useState("")
-  function GetIndex(ind){
-   console.log(ind);
-   setIndex(ind)
-  }
+
 
 
   return (
@@ -25,17 +21,21 @@ function App() {
     <Route path="/" element={
      <> <Header/>
      <Categories/>
-      <Cards Getindex={GetIndex}  />
+      <Cards />
       <Footer/>
       </>
     }  />
-     <Route path="/products" element={<> <Header/>
+     <Route path="/products/:id" element={<> <Header/>
      <Categories/>
-      <Products cardIndex={index} />
+      <Products  />
       <Footer/>
       </>} />
       <Route path="/sellform" element={<Form/>}/>
-       <Route path="/ProductListing" element={<ProductListings/>}  />
+       <Route path="/ProductListing/:category" element={<> <Header/>
+     <Categories/>
+      <ProductListings />
+      <Footer/>
+      </>}  />
      
     </Routes>
     </BrowserRouter>

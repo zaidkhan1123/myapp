@@ -4,31 +4,30 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import axios from "axios";
 import { useState } from "react";
-
-function Cards({ Getindex }) {
+import imagegif from "../svgs/giff.gif"
+function Cards() {
   const initialVAlue = 8;
 
   const [post, setPost] = useState(initialVAlue);
-
+  const [isLloading,setisLoading]=useState(true)
   function loadMore() {
     setPost(post + initialVAlue);
   }
 
-  function Cardclicked(indexx) {
-    Getindex(indexx);
-  }
+
 
   const [Detail, setdetail] = useState([]);
   console.log(Detail);
 
   useEffect(() => {
     const url = "https://fakestoreapi.com/products";
-
+  
     axios
       .get(url)
       .then((res) => {
         console.log(res.data);
         setdetail(res.data);
+        setisLoading(false)
       })
       .catch((err) => {
         console.log(err);
@@ -37,6 +36,7 @@ function Cards({ Getindex }) {
 
   return (
     <>
+    {isLloading ? <img className="mt-3 gif-img mx-auto bg-light" src={imagegif} alt=""  /> : 
       <div className="container-fluid section bg-light mt-5 px-5 ms-1 ">
         <div className="container">
           <h4 className="p-3">Fresh Recomendations</h4>
@@ -46,8 +46,8 @@ function Cards({ Getindex }) {
                 <>
                   <div key={ind} className="col-md-4 col-sm-6 col-lg-3">
                     <Link
-                      onClick={() => Cardclicked(ind + 1)}
-                      to="/products"
+                      
+                      to= {`/products/${item.id}`}
                       className="card text-dark"
                       style={{ height: "auto", minHeight: "310px" }}
                     >
@@ -67,7 +67,7 @@ function Cards({ Getindex }) {
                       />
                       <div className="card-body  ">
                         <img
-                          className="card-img"
+                          className="card-imge"
                           src={"./images/heart.svg"}
                           alt=""
                           style={{ width: "8%" }}
@@ -96,6 +96,7 @@ function Cards({ Getindex }) {
           </div>
         </div>
       </div>
+      }
     </>
   );
 }

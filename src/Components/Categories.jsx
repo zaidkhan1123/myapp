@@ -2,7 +2,7 @@ import React from "react";
 import "./Categories.css";
 import AllCategories from "./AllCategories";
 import { useState } from "react";
-
+import { Link } from "react-router-dom";
 function Categories() {
 const[show,setShow] = useState(false)
 
@@ -33,32 +33,23 @@ function handleClick (){
               ALL CATEGORIES{" "}
               <i  onClick={handleClick} className="ms-1 fs-3  fa fa-solid fa-angle-down" ></i>
             </span>
-            <a href="/mobile-phones_c1453" className="_7d3f8c9a ms-2">
-              Mobile Phones
-            </a>
-            <a href="/cars_c84" className="mx-2">
-              Cars
-            </a>
-            <a href="/Motorcycles" className="mx-2">
-              Motorcycles
-            </a>
-            <a href="/Houses" className="mx-2">
-              Houses
-            </a>
-            <a href="/tv.video.audio" className="mx-2">
-              TV - Video - Audio
-            </a>
-            <a href="/Tablets" className="mx-2">
-              Tablets
-            </a>
-            <a href="/Land & plots" className="mx-2">
-              Land & Plots
-            </a>
+            <Link to="/ProductListing/electronics" className="_7d3f8c9a ms-2">
+              Electronics
+            </Link>
+            <Link to="/ProductListing/jewelery" className="mx-2">
+              Jewelery
+            </Link>
+            <Link to="/ProductListing/men's clothing" className="mx-2">
+             Mens Clothing
+            </Link>
+            <Link to="/ProductListing/women's clothing" className="mx-2">
+             Womens Clothing
+            </Link>
           </div>
         </div>
       </div>
   {/* //////////////////////////////////////////CAROUSEL //////////////////////////////////////////*/}
-      <div className="container  mt-4">
+      {/* <div className="container  mt-4">
         <div
           id="carouselExampleInterval"
           className="carousel slide"
@@ -114,7 +105,7 @@ function handleClick (){
           </button>
         </div>
       </div>
-      
+       */}
     </>
   );
 }
