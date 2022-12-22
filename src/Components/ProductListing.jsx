@@ -80,8 +80,10 @@ function ProductListings() {
     <>
       <div className="container-fluid productListingContainer w-75 mb-5">
         {isLoading ? (
-          <div className=" mx-auto text-center w-100">
-            <img className="mx-auto mt-3" src={imagegif} alt="" />
+          <div className=" mx-auto text-center w-100 mt-5 bg-white ">
+            <div class="spinner-border text-primary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
           </div>
         ) : (
           <>

@@ -36,7 +36,9 @@ function Cards() {
 
   return (
     <>
-    {isLloading ? <img className="mt-3 gif-img mx-auto bg-light" src={imagegif} alt=""  /> : 
+    {isLloading ?  <div className=" mx-auto text-center w-100">
+            <img className="mx-auto mt-3" src={imagegif} alt="" />
+          </div> : 
       <div className="container-fluid section bg-light mt-5 px-5 ms-1 ">
         <div className="container">
           <h4 className="p-3">Fresh Recomendations</h4>
