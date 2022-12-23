@@ -7,12 +7,12 @@ function SellerDesc() {
         <h2 className="sellerDescriptionTitle fs-5">Seller Description</h2>
         <div className="sellerProfile d-flex">
           <img
-            src={"./images/profile.png"}
+            src={"https://www.olx.com.pk/assets/iconProfilePicture.7975761176487dc62e25536d9a36a61d.png"}
             className="sellerImage"
             alt="seller profile image"
           />
           <div className="sellerNameAndTime max-height my-auto ms-2">
-            <h3 className="sellerName m-0 fw-bold">Mughal</h3>
+            <h3 className="sellerName m-0 fw-bold">Salman</h3>
             <p className="memberTime grayShade m-0">Member since Jul 2022</p>
           </div>
           <i

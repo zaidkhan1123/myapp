@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import axios from "axios";
 import { useState } from "react";
-import imagegif from "../svgs/giff.gif"
+
 function Cards() {
   const initialVAlue = 8;
 
@@ -37,7 +37,9 @@ function Cards() {
   return (
     <>
     {isLloading ?  <div className=" mx-auto text-center w-100">
-            <img className="mx-auto mt-3" src={imagegif} alt="" />
+    <div className="spinner-border mt-5 text-primary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
           </div> : 
       <div className="container-fluid section bg-light mt-5 px-5 ms-1 ">
         <div className="container">

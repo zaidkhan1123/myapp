@@ -6,7 +6,7 @@ import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import GridViewOutlinedIcon from "@mui/icons-material/GridViewOutlined";
 import ViewAgendaOutlinedIcon from "@mui/icons-material/ViewAgendaOutlined";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
-import imagegif from "../svgs/giff.gif"
+
 import "./ProductListing.css"
 
 function ProductListings() {
@@ -125,12 +125,12 @@ function ProductListings() {
                 </div>
                 <div className="sortBy d-flex justify-content-center align-items-center">
                   <label className="fs-14 fw-bold" id htmlFor="sortBy">
-                    SORT BY:
+                   
                   </label>
 
                   <select
                     id="sortBy"
-                    className="sortBy form-select form-select-sm border-0 fs-14 max-width"
+                    className="sortBy form-select form-select-sm border-0 fs-14 max-width  "
                     onChange={handleSelectFilter}
                   >
                     <option>None</option>
@@ -144,12 +144,20 @@ function ProductListings() {
               <div className="col-lg-4 d-none d-lg-block">
                 <h3 className="fs-6 fw-bold">CATEGORIES</h3>
                 <div className="px-3 border-bottom border-2 grayShade">
-                  <span className="fs-14 ">All Categories</span>
+                  <span className="fs-14 fw-bold ">All Categories</span>
                      <ul>
-                      <li className="fourteen">Electronics</li>
-                      <li className="fourteen">Jewelery</li>
-                      <li className="fourteen">Mens Clothing</li>
-                      <li className="fourteen">womens Clothing</li>
+                     <Link to="/ProductListing/electronics" className="_7d3f8c9a ">
+              Electronics
+            </Link> <br />
+            <Link to="/ProductListing/jewelery">
+              Jewelery
+            </Link><br />
+            <Link to="/ProductListing/men's clothing">
+             Mens Clothing
+            </Link><br />
+            <Link to="/ProductListing/women's clothing">
+             Womens Clothing
+            </Link><br />
                      </ul>
                 </div>
                 <div className="my-3 py-3 border-bottom border-2">
