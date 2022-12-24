@@ -49,7 +49,7 @@ function handleClick (){
         </div>
       </div>
   {/* //////////////////////////////////////////CAROUSEL //////////////////////////////////////////*/}
-      {/* <div className="container  mt-4">
+       <div className="container  mt-4">
         <div
           id="carouselExampleInterval"
           className="carousel slide"
@@ -105,7 +105,7 @@ function handleClick (){
           </button>
         </div>
       </div>
-       */}
+       
     </>
   );
 }
